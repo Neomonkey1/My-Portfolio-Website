@@ -1,0 +1,20 @@
+/*start of General Styling*/
+/*body styling*/
+body{
+    margin: 0%;
+}
+/*h1*/
+h1{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 3%;
+    color: rgb(16, 16, 16);
+}
+/*hover effect over all h1 elements*/
+h1:hover{
+    filter: blur(10%);
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+/*end of General Styling*/
