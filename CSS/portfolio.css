@@ -13,8 +13,19 @@ h1{
 }
 /*hover effect over all h1 elements*/
 h1:hover{
-    filter: blur(10%);
+    filter: grayscale(100%);
     transform: scale(1.1);
     transition: transform 1s;
+    cursor: pointer;
+}
+white-text{
+    color: #fff;
+}
+/*p element */
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    letter-spacing: 2px;
+    font-size: 15px;
 }
 /*end of General Styling*/
